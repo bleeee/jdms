@@ -15,6 +15,9 @@ yarn run electron:serve
 
 # build pack 打包
 yarn run electron:build
+
+#在树莓派中打包要使用
+yarn run electron:build --armv7l --dir /root/jdms
 ```
 
 ### 注意事项
